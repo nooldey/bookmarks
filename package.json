@@ -1,0 +1,17 @@
+{
+  "name": "vue-blog",
+  "version": "1.0.0",
+  "description": "my blog build with vuepress",
+  "main": "index.js",
+  "author": "Nooldey <nooldey@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev source",
+    "theme": "vuepress eject source",
+    "build": "vuepress build source"
+  },
+  "devDependencies": {
+    "vuepress": "^0.5.1"
+  }
+}
