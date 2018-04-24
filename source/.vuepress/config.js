@@ -1,8 +1,8 @@
 /*
  * @Author: nooldey
  * @Date:   2018-04-18 10:56:39
- * @Last Modified by: nooldey
- * @Last Modified time: 2018-04-24 09:16:10
+ * @Last Modified by:   nooldey
+ * @Last Modified time: 2018-04-24 19:28:04
  */
 module.exports = {
 	// base: '/child/',  /* 二级目录 */
@@ -44,6 +44,7 @@ module.exports = {
 		],
 		sidebar: {
 			'/nav/': [
+				'',
 				'前端在线工具',
 				'实用工具',
 				'搜索引擎',
