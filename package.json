@@ -9,9 +9,13 @@
   "scripts": {
     "dev": "vuepress dev source",
     "theme": "vuepress eject source",
-    "build": "vuepress build source"
+    "build": "vuepress build source",
+    "g": "node ./generater/main"
   },
   "devDependencies": {
     "vuepress": "^0.5.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
   }
 }
