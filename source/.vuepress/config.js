@@ -2,10 +2,10 @@
  * @Author: nooldey
  * @Date:   2018-04-18 10:56:39
  * @Last Modified by:   nooldey
- * @Last Modified time: 2018-04-26 08:51:14
+ * @Last Modified time: 2018-04-26 17:46:52
  */
 module.exports = {
-	// base: '/child/',  /* 二级目录 */
+	base: '/bookmarks/',  /* 二级目录 */
 	title: '网址导航',
 	/* 标题 */
 	description: 'Just Run Docs',

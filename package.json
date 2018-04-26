@@ -1,7 +1,7 @@
 {
-  "name": "vue-blog",
+  "name": "vue-bookmark",
   "version": "1.0.0",
-  "description": "my blog build with vuepress",
+  "description": "my bookmark build with vuepress",
   "main": "index.js",
   "author": "Nooldey <nooldey@gmail.com>",
   "license": "MIT",
