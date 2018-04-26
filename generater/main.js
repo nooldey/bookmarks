@@ -2,7 +2,7 @@
 * @Author: nooldey
 * @Date:   2018-04-25 09:00:42
 * @Last Modified by:   nooldey
-* @Last Modified time: 2018-04-25 10:07:32
+* @Last Modified time: 2018-04-26 08:33:30
 */
 
 const fs = require('fs')
@@ -10,7 +10,7 @@ const cheerio = require('cheerio')
 const PATH = require('path')
 const config = {
 	bookmarksFile: PATH.resolve(__dirname, './bookmark/bookmarks.html'),
-	mdFilePath: './md/',
+	mdFilePath: '../source/',
 	unlessPath: ['public']
 }
 
@@ -40,16 +40,24 @@ const formatMsg = (target) => {
 
 const writeFile = (fileName, content, filePath) => {
 	filePath = filePath || './md/';
+    fileName = fileName.replace('.md','');
+    let foldPath = PATH.join(__dirname, filePath)
+    if (!fs.existsSync(foldPath)) {
+        fs.mkdirSync(foldPath)
+    }
 	/* 写入 */
-	let path = PATH.resolve(__dirname, filePath + fileName);
-	fs.writeFile(path, content, function(err) {
+	let path = PATH.join(__dirname, filePath + fileName);
+    if (!fs.existsSync(path)) {
+        fs.mkdirSync(path)
+    }
+	fs.writeFile(path + '/README.md', content, function(err) {
 		if (err) {
 			return console.error(err)
 		}
 		else {
 			let msg = [];
 			msg.push(formatMsg(fileName) + 'Created Successfully!')
-			let stat = fs.statSync(path)
+			let stat = fs.statSync(path + '/README.md')
 			if (stat.isFile()) {
 				msg.push('size: ' + stat.size)
 			}
