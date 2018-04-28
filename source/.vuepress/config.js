@@ -2,7 +2,7 @@
  * @Author: nooldey
  * @Date:   2018-04-18 10:56:39
  * @Last Modified by:   nooldey
- * @Last Modified time: 2018-04-26 17:46:52
+ * @Last Modified time: 2018-04-28 09:41:39
  */
 module.exports = {
 	base: '/bookmarks/',  /* 二级目录 */
@@ -47,8 +47,8 @@ module.exports = {
 			'实用工具/',
 			'搜索引擎/',
 			'程序开发Coder/',
-			'个人/',
 			'收藏的文章/',
+			'个人/',
 			'电商运营/'
 		]
 	}
