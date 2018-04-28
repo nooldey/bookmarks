@@ -1,23 +1,14 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 # @Author: nooldey
-# @Date:   2018-04-26 17:48:46
+# @Date:   2018-04-28 09:08:12
 # @Last Modified by:   nooldey
-# @Last Modified time: 2018-04-26 19:13:29
-
-set -e
+# @Last Modified time: 2018-04-28 09:30:46
 
 yarn build
-
-cd ./public
-
-# echo 'zhuweisheng.com.cn' > CNAME
-
+cd public
 git init
-git remote add origin https://github.com/nooldey/bookmarks.git
-git add -A
-git commit -m 'auto deploy'
-git push --set-upstream origin gh-pages
-git push -f https://github.com/nooldey/bookmarks.git master:gh-pages
-
-cd -
+git add .
+git commit -m 'deploy'
+git remote add pages https://github.com/nooldey/bookmarks.git -t gh-pages
+git push -u pages master:gh-pages --force
