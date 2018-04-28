@@ -2,7 +2,7 @@
 
 这是一个基于vuepress静态网站生成器搭建起来的网址收藏夹。
 
-[在线演示](/bookmarks/)
+[在线演示](https://nooldey.github.io/bookmarks/)
 
 ## 开发来由
 
