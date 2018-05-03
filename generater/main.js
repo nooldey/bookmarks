@@ -2,7 +2,7 @@
 * @Author: nooldey
 * @Date:   2018-04-25 09:00:42
 * @Last Modified by:   nooldey
-* @Last Modified time: 2018-04-26 08:33:30
+* @Last Modified time: 2018-05-03 15:36:14
 */
 
 const fs = require('fs')
@@ -39,15 +39,20 @@ const formatMsg = (target) => {
 }
 
 const writeFile = (fileName, content, filePath) => {
-	filePath = filePath || './md/';
-    fileName = fileName.replace('.md','');
-    let foldPath = PATH.join(__dirname, filePath)
-    if (!fs.existsSync(foldPath)) {
-        fs.mkdirSync(foldPath)
-    }
-	/* 写入 */
-	let path = PATH.join(__dirname, filePath + fileName);
-    if (!fs.existsSync(path)) {
+	let path;
+	if (fileName !== 'README.md') {
+		filePath = filePath || './md/';
+	    fileName = fileName.replace('.md','');
+	    let foldPath = PATH.join(__dirname, filePath)
+	    if (!fs.existsSync(foldPath)) {
+	        fs.mkdirSync(foldPath)
+	    }
+		/* 写入 */
+		path = PATH.join(__dirname, filePath + fileName);
+	} else {
+		path = PATH.join(__dirname, filePath);
+	}
+	if (!fs.existsSync(path)) {
         fs.mkdirSync(path)
     }
 	fs.writeFile(path + '/README.md', content, function(err) {
@@ -219,5 +224,5 @@ setTimeout(function () {
         fileContentArr.push(fileContent)
     }
     // 生成README.md
-    // writeFile('README.md', fileContentArr.join(''), config.mdFilePath)
+    writeFile('README.md', fileContentArr.join(''), config.mdFilePath)
 }, 3000)
