@@ -81,6 +81,10 @@
 + [微力同步](http://verysync.com/)
 + [NextCloud](https://nextcloud.com/)
 
+## Linus系统下载
+
++ [Elementary](https://sgp1.dl.elementary.io/download/MTUyNTY3NjE1NQ==/elementaryos-0.4.1-stable.20180214.iso)
+
 ## 娱乐/网赚
 
 + [全网VIP视频在线解析](http://yuweining.cn/t/vip/)
