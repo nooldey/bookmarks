@@ -2,6 +2,8 @@
 
 这是一个基于vuepress静态网站生成器搭建起来的网址收藏夹。
 
+[![Build Status](https://travis-ci.org/nooldey/bookmarks.svg?branch=master)](https://travis-ci.org/nooldey/bookmarks)
+
 [在线演示](https://nooldey.github.io/bookmarks/)
 
 ## 开发来由
