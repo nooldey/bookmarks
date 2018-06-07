@@ -29,6 +29,6 @@ footer: MIT Licensed | Copyright © 2018 Nooldey
 
 ::: tip 开发注意事项
 1. `generater`文件夹下，除书签文件`bookmarks.html`外，请勿随意修改文件；
-2. `source`文件夹下，请勿随意修改`.vuepress`下的文件；
+2. `generater/static`文件夹下，请勿随意修改`.vuepress`下的文件；
 3. 二次开发请注意目录规则遵守`Vuepress`官方说明及规范。
 :::
