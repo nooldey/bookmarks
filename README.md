@@ -20,7 +20,7 @@
 
 在谷歌Chrome导出书签到本项目根路径下的`generater/bookmark/bookmarks.html`
 
-`yarn g`: 自动批量转换并生成md文档
+`yarn chrome`: 自动批量转换chrome导出的书签并生成md文档
 
 `yarn dev`: 本地运行测试
 
@@ -31,13 +31,3 @@
 [bookmark2md](https://github.com/OXOYO/bookmark2md)
 
 [Vuepress](https://vuepress.vuejs.org/zh/)
-
-## 更多
-
-::: tip 功能
-generater: 转换Chrome书签为md文件
-:::
-
-::: tip 文件夹
-source: 整理后的文档源文件-md, 基于 vuepress
-:::
