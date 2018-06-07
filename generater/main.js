@@ -2,21 +2,17 @@
 * @Author: nooldey
 * @Date:   2018-04-25 09:00:42
  * @Last Modified by: nooldey
- * @Last Modified time: 2018-06-07 10:19:36
+ * @Last Modified time: 2018-06-07 11:02:38
 */
 
 const fs = require('fs')
 const cheerio = require('cheerio')
 const pinyin = require('pinyin')
 const PATH = require('path')
-const config = {
-	bookmarksFile: PATH.resolve(__dirname, './bookmark/bookmarks.html'),
-	mdFilePath: '../source/',
-	unlessPath: ['public']
-}
+const config = require('./bookmarkConfig')
 
 /* 定量 */
-const html = fs.readFileSync(config.bookmarksFile)
+const html = fs.readFileSync(PATH.resolve(__dirname, './bookmark/' + config.bookmarksFile))
 const $ = cheerio.load(html)
 const timeNow = Date.now()
 const dirNameObj = {}
@@ -239,7 +235,7 @@ setTimeout(function () {
             }
         })
     }, 500);
-    // 处理timeNow一层
+    // 汇总所有的书签
     // if (fileObj[timeNow].list && fileObj[timeNow].list.length) {
     //     let obj = fileObj[timeNow]
     //     let fileContent = ''
@@ -251,5 +247,5 @@ setTimeout(function () {
     //     fileContentArr.push(fileContent)
     // }
     // 生成README.md
-    // writeFile('README.md', fileContentArr.join(''), config.mdFilePath)
+    // writeFile('all/README.md', fileContentArr.join(''), config.mdFilePath)
 }, 3000)
