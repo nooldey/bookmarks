@@ -21,10 +21,10 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ec460f7603fc3d9fc6149423f76c0331"
+    "revision": "978fd01f84b8525fad98c8e429693293"
   },
   {
-    "url": "assets/css/11.styles.e6c6433b.css",
+    "url": "assets/css/9.styles.cf6af10a.css",
     "revision": "24eaea6d5e6d82ea9e22100e49519c08"
   },
   {
@@ -32,52 +32,44 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/0.4b1b9b2c.js",
-    "revision": "c31e5e73e73d9b13b1f71d5e0fd93683"
+    "url": "assets/js/0.0125d283.js",
+    "revision": "fa3a03778b1f5784d600f980b450162d"
   },
   {
-    "url": "assets/js/1.2598e0b4.js",
-    "revision": "14cd8a2c08a0324cd1ac221de9da578c"
+    "url": "assets/js/1.b610ac78.js",
+    "revision": "0e93782b541d843a142f58027963ad4e"
   },
   {
-    "url": "assets/js/10.11f76bff.js",
-    "revision": "4ae918355c720df6218c7ec89623a374"
+    "url": "assets/js/2.52572d54.js",
+    "revision": "9f2970f7f83c55b6bd2b97dbfcb6a848"
   },
   {
-    "url": "assets/js/2.5706b484.js",
-    "revision": "f6b8fb8a83707d609f8f5ab50a7d460c"
+    "url": "assets/js/3.f2fed7a8.js",
+    "revision": "d85f3b0fa820d9721dc7773ac1d68c69"
   },
   {
-    "url": "assets/js/3.55904a10.js",
-    "revision": "b836c91ddd48229bb368dc93381db965"
+    "url": "assets/js/4.561efb8f.js",
+    "revision": "20d04ad798d07918b9b74d4ccaf517ed"
   },
   {
-    "url": "assets/js/4.71845105.js",
-    "revision": "df185fc655124ed8ae58c3be5f5c48bb"
+    "url": "assets/js/5.f139ec9b.js",
+    "revision": "791f00206634369780dbf53698de005e"
   },
   {
-    "url": "assets/js/5.58c5ac02.js",
-    "revision": "e8e6401de7cf73642e7d3ce8ba1a1e98"
+    "url": "assets/js/6.4372d0a9.js",
+    "revision": "ad3123d6c321acf00136df183f922a69"
   },
   {
-    "url": "assets/js/6.87e4681c.js",
-    "revision": "f60a9e933a4cf5444494d56748a0c81e"
+    "url": "assets/js/7.f6689e27.js",
+    "revision": "7f7b965a2fc542e71d53b9a1ba1dfa2d"
   },
   {
-    "url": "assets/js/7.014782ce.js",
-    "revision": "97f2e54dd9de5a3af250ce33b01c7a23"
+    "url": "assets/js/8.3d1433d9.js",
+    "revision": "3e4895ccc6e276b2e2f6003b86228a85"
   },
   {
-    "url": "assets/js/8.a59823e3.js",
-    "revision": "1a425c1548eb268f5c4eeb0c25bfa554"
-  },
-  {
-    "url": "assets/js/9.ca0c966c.js",
-    "revision": "6464c90e95a2c7e40b1eebf9e0a850b1"
-  },
-  {
-    "url": "assets/js/app.12073908.js",
-    "revision": "3b763d1b12d7d8854897a4aace6b1789"
+    "url": "assets/js/app.552728e0.js",
+    "revision": "a89654ec86189d1fc53c1b50f97763a3"
   },
   {
     "url": "avatar.png",
@@ -85,47 +77,39 @@ self.__precacheManifest = [
   },
   {
     "url": "chengxukaifaCoder/index.html",
-    "revision": "d24caf125adcaa41b779c2358d50e29a"
+    "revision": "863954f5ce1d068c99085f969f70909c"
   },
   {
     "url": "developer/index.html",
-    "revision": "7a281190df832a7437343eb280a3109e"
+    "revision": "de549ea7f7c7bd2f3df8dbbdf1dc0d8a"
   },
   {
     "url": "dianshangyunying/index.html",
-    "revision": "48aeb9d7d55d3f03e193ae5235d6e533"
+    "revision": "c258073910d0a60a020c634f38d9928a"
   },
   {
     "url": "dianzishu/index.html",
-    "revision": "89bb81db2215fe795fa31f2e045413fb"
+    "revision": "c7f16bdae87518d5f363b50b50fd64d7"
   },
   {
     "url": "friends/index.html",
-    "revision": "39bb528f082f2007cf339e8e69738094"
-  },
-  {
-    "url": "geren/index.html",
-    "revision": "df7b896a7bf0dac47a5bfeddfacd14a4"
+    "revision": "a0780e46efa27f75041898baf0eae114"
   },
   {
     "url": "index.html",
-    "revision": "7f029def44a5a32c1b587cdc606e72e0"
+    "revision": "ee72ada59793a733be62780581c5d54e"
   },
   {
     "url": "qianduanzaixiangongju/index.html",
-    "revision": "1a8c3da60f8f5636c0ae3b1b92c30cf9"
+    "revision": "45ddcd3e3b9f6d01726e7d9099a678a2"
   },
   {
     "url": "shoucangdewenzhang/index.html",
-    "revision": "4cee2cba44578c0c8dd8ab49469576cb"
+    "revision": "2ea1fac9c784db0539d4a84c834f8c27"
   },
   {
     "url": "sousuoyinqing/index.html",
-    "revision": "286662002c740bffe1c12ae641d14949"
-  },
-  {
-    "url": "xiangmu/index.html",
-    "revision": "eb055a723f4f5cdae29eccdba6786554"
+    "revision": "89898d8f525c7a0d49f882fa00bf6170"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
