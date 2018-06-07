@@ -1,12 +1,13 @@
 /*
 * @Author: nooldey
 * @Date:   2018-04-25 09:00:42
-* @Last Modified by:   nooldey
-* @Last Modified time: 2018-05-03 15:36:14
+ * @Last Modified by: nooldey
+ * @Last Modified time: 2018-06-07 10:19:36
 */
 
 const fs = require('fs')
 const cheerio = require('cheerio')
+const pinyin = require('pinyin')
 const PATH = require('path')
 const config = {
 	bookmarksFile: PATH.resolve(__dirname, './bookmark/bookmarks.html'),
@@ -20,8 +21,14 @@ const $ = cheerio.load(html)
 const timeNow = Date.now()
 const dirNameObj = {}
 const separator = '=>'
+const NavList = [
+    {"text": '网络邻居', "link": '/friends/'},
+    {"text": '开发导航', "link": '/developer/'},
+];
 
 /* 方法 */
+const formatCN = ctx => ctx.replace(/([\u4e00-\u9fa5])/g, str => pinyin(str, { style: pinyin.STYLE_NORMAL }))
+
 const formatMsg = (target) => {
 	let getBlen = function(str) {
 		if (str == null) return 0;
@@ -48,7 +55,7 @@ const writeFile = (fileName, content, filePath) => {
 	        fs.mkdirSync(foldPath)
 	    }
 		/* 写入 */
-		path = PATH.join(__dirname, filePath + fileName);
+		path = PATH.join(__dirname, filePath + formatCN(fileName));
 	} else {
 		path = PATH.join(__dirname, filePath);
 	}
@@ -65,8 +72,12 @@ const writeFile = (fileName, content, filePath) => {
 			let stat = fs.statSync(path + '/README.md')
 			if (stat.isFile()) {
 				msg.push('size: ' + stat.size)
-			}
-			console.log(msg.join(' '))
+            }
+            NavList.push({
+                text: fileName,
+                link: '/' + formatCN(fileName) + '/'
+            })
+            console.log(msg.join(' '))
 		}
 	})
 }
@@ -178,11 +189,11 @@ setTimeout(function () {
     })
     // 处理fileObj
     let childFileObj = fileObj[timeNow]['child']
-    let fileContentArr = []
+    // let fileContentArr = []
     Object.keys(childFileObj).map(function (key) {
         if (key) {
             let fileName = key + '.md'
-            let fileContent = ''
+            let fileContent = '---\nsidebar: auto\n---\n\n'
             // 递归循环
             let count = 1
             let getSize = function (count) {
@@ -197,7 +208,11 @@ setTimeout(function () {
                 if (obj.list && obj.list.length) {
                     for (let [i, item] of obj.list.entries()) {
                         let createTime = item.create_time ? item.create_time + ' ' : ''
-                        fileContent += createTime + '[' + item.text + '](' + item.href + ')' + '\n\n'
+                        // fileContent += createTime + '[' + item.text + '](' + item.href + ')' + '\n\n'
+                        fileContent += '+ ' + '[' + item.text + '](' + item.href + ')' + '\n';
+                        if (i === obj.list.entries.length-1) {
+                            fileContent += '\n\n'
+                        }
                     }
                 }
                 // 判断是否存在子节点
@@ -208,21 +223,33 @@ setTimeout(function () {
                 }
             }
             handle(childFileObj[key], count)
-            fileContentArr.push(fileContent)
+            // fileContentArr.push(fileContent)
             // 创建 md 文件
             writeFile(fileName, fileContent, config.mdFilePath)
         }
     })
+    setTimeout(() => {
+        let content = '/* By auto generator */'+ '\n\n const nav = ' + JSON.stringify(NavList).replace(/\"(text|link)\"/g, '$1') + '\n\n' + 'module.exports = nav';
+        fs.writeFile(PATH.join(__dirname, config.mdFilePath) + '.vuepress/nav.js', content, function(err) {
+            if (err) {
+                return console.error(err)
+            }
+            else {
+                console.log('Created Nav Config Successfully!');
+            }
+        })
+    }, 500);
     // 处理timeNow一层
-    if (fileObj[timeNow].list && fileObj[timeNow].list.length) {
-        let obj = fileObj[timeNow]
-        let fileContent = ''
-        for (let [i, item] of obj.list.entries()) {
-            let createTime = item.create_time ? item.create_time + ' ' : ''
-            fileContent += createTime + '[' + item.text + '](' + item.href + ')' + '\n\n'
-        }
-        fileContentArr.push(fileContent)
-    }
+    // if (fileObj[timeNow].list && fileObj[timeNow].list.length) {
+    //     let obj = fileObj[timeNow]
+    //     let fileContent = ''
+    //     for (let [i, item] of obj.list.entries()) {
+    //         let createTime = item.create_time ? item.create_time + ' ' : ''
+    //         // fileContent += createTime + '[' + item.text + '](' + item.href + ')' + '\n\n'
+    //         fileContent += '+ ' + '[' + item.text + '](' + item.href + ')' + '\n'
+    //     }
+    //     fileContentArr.push(fileContent)
+    // }
     // 生成README.md
-    writeFile('README.md', fileContentArr.join(''), config.mdFilePath)
+    // writeFile('README.md', fileContentArr.join(''), config.mdFilePath)
 }, 3000)

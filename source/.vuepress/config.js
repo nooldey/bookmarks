@@ -1,57 +1,29 @@
 /*
  * @Author: nooldey
  * @Date:   2018-04-18 10:56:39
- * @Last Modified by:   nooldey
- * @Last Modified time: 2018-05-03 20:39:42
+ * @Last Modified by: nooldey
+ * @Last Modified time: 2018-06-07 10:44:25
  */
+
+const Nav = require('./nav')
+
 module.exports = {
 	base: '/bookmarks/',  /* 二级目录 */
-	title: '网址导航',
+	title: 'Chrome 书签',
 	/* 标题 */
-	description: 'Just Run Docs',
+	description: '智能转换谷歌收藏夹导出书签',
 	/* 描述 */
 	// head: [
 	// 	['tagName', { attrName: attrValue }, innerHTML?]
 	// ],
 	// dev: '0.0.0.0',
 	// port: 8080,
+	repo: 'https://github.com/nooldey/bookmarks',
 	dest: 'public',
 	// ga: '',
 	serviceWorker: true,
 	/* Nav */
 	themeConfig: {
-		// nav: [{
-		// 		text: 'Home',
-		// 		link: '/'
-		// 	},
-		// 	{
-		// 		text: 'Nav',
-		// 		link: '/nav/'
-		// 	},
-		// 	/* dropdown menu */
-		// 	{
-		// 		text: 'Languages',
-		// 		items: [{
-		// 				text: 'Chinese',
-		// 				link: '/language/chinese'
-		// 			},
-		// 			{
-		// 				text: 'Japanese',
-		// 				link: '/language/japanese'
-		// 			}
-		// 		]
-		// 	}
-		// ],
-		sidebar: [
-			'friends/',
-			'dev/',
-			'前端在线工具/',
-			'实用工具/',
-			'搜索引擎/',
-			'程序开发Coder/',
-			'收藏的文章/',
-			'个人/',
-			'电商运营/'
-		]
+		nav: Nav
 	}
 }

@@ -10,12 +10,13 @@
     "dev": "vuepress dev source",
     "theme": "vuepress eject source",
     "build": "vuepress build source",
-    "g": "node ./generater/main"
+    "chrome": "node ./generater/main"
   },
   "devDependencies": {
     "vuepress": "^0.5.1"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2"
+    "cheerio": "^1.0.0-rc.2",
+    "pinyin": "^2.8.3"
   }
 }
