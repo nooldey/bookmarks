@@ -8,8 +8,8 @@ sidebar: auto
 
 ## 代码编辑器
 
-+ [ATOM](https://atom.io/)
 + [VSCODE](https://code.visualstudio.com/)
++ [ATOM](https://atom.io/)
 + [WebStorm](http://www.jetbrains.com/webstorm/)
 + [sublimeText](https://www.sublimetext.com/)
 
@@ -33,6 +33,7 @@ sidebar: auto
 + [Vuex文档（中）](https://vuex.vuejs.org/zh-cn/)
 + [Vue-SSR文档（中）](https://ssr.vuejs.org/zh/)
 + [Vue-Loader文档（中）](https://vue-loader.vuejs.org/zh-cn/)
++ [VuePress文档(中)](https://vuepress.vuejs.org/zh/guide/)
 + [Nuxt(中)](https://zh.nuxtjs.org/)
 
 ## React.js开发
@@ -82,6 +83,10 @@ sidebar: auto
 + [AntV](https://antv.alipay.com/zh-cn/index.html "蚂蚁金服 数据可视化")
 + [ECharts](http://echarts.baidu.com/ "百度出品·Echarts动态图表")
 + [Frappé Gantt](https://frappe.github.io/gantt/ "最简单易用的JS甘特图插件")
+
+## 3D开发
+
++ [3D库-three.js](http://threejs.org "快速上手搭建3D动画")
 
 ## 代码托管
 
