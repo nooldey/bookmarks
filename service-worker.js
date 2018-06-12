@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d5b12c9993a7eaac44900c964ad7c840"
+    "revision": "ef943e1fc4a88a9ce5c0c39ecdb10a33"
   },
   {
     "url": "assets/css/10.styles.60bbff25.css",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "revision": "52d9ce93832fd570c940667a20858887"
   },
   {
-    "url": "assets/js/3.bfd5c848.js",
-    "revision": "1a395462d251bef8ea3db525fd377000"
+    "url": "assets/js/3.78218c5c.js",
+    "revision": "3179707550eaac151bb05504da87ae0d"
   },
   {
     "url": "assets/js/4.8971b08a.js",
@@ -56,24 +56,24 @@ self.__precacheManifest = [
     "revision": "026fbd8785b48f8ca8daa2560fcd888a"
   },
   {
-    "url": "assets/js/6.7d8143c5.js",
-    "revision": "e4a6fe2a7b17f330e6eac2d5d2c4e2e0"
+    "url": "assets/js/6.e1f69adf.js",
+    "revision": "c73c23ff6904a0e6fb76087e282fc521"
   },
   {
-    "url": "assets/js/7.17c17eb1.js",
-    "revision": "50e09c1eede6e231e0043ddd76ffdcfb"
+    "url": "assets/js/7.cc1e9fe0.js",
+    "revision": "5334b06a6da32146b5501d7bd2b54c88"
   },
   {
-    "url": "assets/js/8.d49a0e63.js",
-    "revision": "50e704c62e1d9aeece5d80bccb72ca68"
+    "url": "assets/js/8.dcdeca5d.js",
+    "revision": "909039204d2584221336ead9edaaab6f"
   },
   {
     "url": "assets/js/9.91d61d23.js",
     "revision": "a6ee0e56e05c366f8582d23bbbebd446"
   },
   {
-    "url": "assets/js/app.7be9b91e.js",
-    "revision": "7a745c220643e9d2474fc3095b572b35"
+    "url": "assets/js/app.c36efdc2.js",
+    "revision": "66330c6a70ee607ebe2642e41bc7529b"
   },
   {
     "url": "avatar.png",
@@ -81,43 +81,43 @@ self.__precacheManifest = [
   },
   {
     "url": "chengxukaifaCoder/index.html",
-    "revision": "639053fc19712d0d9aed0a372703864f"
+    "revision": "8c450052dac25b689ec4ac3fbfa4a136"
   },
   {
     "url": "developer/index.html",
-    "revision": "ea798e3edb6808b82797b7ea338b38ac"
+    "revision": "5f97e02acc3bfb4effbb118bd99f0c70"
   },
   {
     "url": "developer/vps.html",
-    "revision": "950cfa28a55c638297c1a7a76eb76f10"
+    "revision": "cec123ab66848c78262f356cf893c2e3"
   },
   {
     "url": "dianshangyunying/index.html",
-    "revision": "17466b573c36b63d0e2f8607eb30a8d9"
+    "revision": "3a0360930a69a12b24a1f595de633c52"
   },
   {
     "url": "dianzishu/index.html",
-    "revision": "69e9e7ae3c14df2b28b3954861dc5466"
+    "revision": "7dc35305518e7e0a3a53cd91cad354f1"
   },
   {
     "url": "friends/index.html",
-    "revision": "aee23f90f71a05ddca5d13ec7cbae3b4"
+    "revision": "95754acba5165b1a501d06cfee0add2b"
   },
   {
     "url": "index.html",
-    "revision": "11c846e598dff8f1a34ce027f4c86596"
+    "revision": "e95a7b8cf9f4c53d7226df00cc611c00"
   },
   {
     "url": "qianduanzaixiangongju/index.html",
-    "revision": "da323e4fa8b75f0e1b1f5b066ca0efac"
+    "revision": "cac0a115cc266ef5b84ca794934cc82f"
   },
   {
     "url": "shoucangdewenzhang/index.html",
-    "revision": "5a355ca7e7031211f636dc101fb024e1"
+    "revision": "9a21e98ee5a83e99bf9cc9e59ab60568"
   },
   {
     "url": "sousuoyinqing/index.html",
-    "revision": "76ebf131b3632e031b021ccd25357877"
+    "revision": "46559642672994b45938cfb062fef8ec"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
