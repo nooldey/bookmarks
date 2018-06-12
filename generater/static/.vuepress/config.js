@@ -2,7 +2,7 @@
  * @Author: nooldey
  * @Date:   2018-04-18 10:56:39
  * @Last Modified by: nooldey
- * @Last Modified time: 2018-06-07 10:44:25
+ * @Last Modified time: 2018-06-12 10:46:40
  */
 
 const Nav = require('./nav')
@@ -18,9 +18,11 @@ module.exports = {
 	// ],
 	// dev: '0.0.0.0',
 	// port: 8080,
-	repo: 'https://github.com/nooldey/bookmarks',
+	repo: 'nooldey/bookmarks',
+	editLinks: true,
 	dest: 'public',
 	// ga: '',
+	// theme: 'woo',
 	serviceWorker: true,
 	/* Nav */
 	themeConfig: {
