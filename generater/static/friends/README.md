@@ -59,29 +59,31 @@ sidebar: auto
 
 ## 主机/域名
 
-+ [阿里云优惠券](/go?id=aliquan)
-+ [阿里云](/go?id=aliyun)
-+ [腾讯云](/go?id=qcloud)
-+ [Vultr](/go?id=vultr)
-+ [搬瓦工](/go?id=bwg)
-+ [恒创科技](/go?id=henghost)
++ [阿里云优惠券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=aipswni6&utm_source=aipswni6)
++ [阿里云](http://www.aliyun.com/product/ecs/?ali_trackid=2:mm_26651787_3491004_36256896:1441285240_3k9_312975865)
++ [腾讯云](https://cloud.tencent.com/redirect.php?redirect=1005&cps_key=1cf93114cc03e20a38410779230461e5)
++ [Vultr](https://www.vultr.com/?ref=7368831)
++ [搬瓦工·优惠码BWH1ZBPVK](https://bandwagonhost.com/aff.php?aff=15415)
++ [恒创科技](http://my.henghost.com/aff.php?aff=1747)
 + [枫叶主机](https://www.fyzhuji.com/aff.php?aff=107)
 + [Sina App Engine](http://sae.sina.com.cn/?m=myapp)
-+ [七牛云](/go?id=qiniu)
++ [七牛云](https://portal.qiniu.com/signup?code=3lmfxlrqtg502)
 + [免费域名Freenom](http://www.freenom.com)
++ [免费临时主机·Apponfly](https://www.apponfly.com/ "免费领取一个月Windows主机")
 + [宝塔linux管理助手详细安装流程](http://www.bt.cn/Help/Find?id=89)
 + [宝塔面板命令大全](http://www.bt.cn/btcode.html)
 
 ## 笔记/效率
 
++ [腾讯文档](https://docs.qq.com/desktop/ "在线协作编辑，轻便快速")
 + [有道云笔记](http://note.youdao.com/)
 + [百度脑图](http://naotu.baidu.com/)
 
 ## 网盘/同步盘
 
-+ [Dropbox](https://db.tt/c4wmojuTBA)
-+ [微力同步](http://verysync.com/)
-+ [NextCloud](https://nextcloud.com/)
++ [同步盘·Dropbox](https://db.tt/c4wmojuTBA)
++ [同步盘·微力同步](http://verysync.com/)
++ [自建·NextCloud](https://nextcloud.com/)
 + [115网盘](http://115.com/)
 + [百度网盘](http://yun.baidu.com)
 
@@ -96,4 +98,5 @@ sidebar: auto
 + [陆金所](http://t.lu.com/r/ibYR=J)
 + [GoogleAdSense](https://www.google.com/adsense/)
 + [阿里妈妈](http://www.alimama.com/)
++ [namaho](http://namaho.org)
 

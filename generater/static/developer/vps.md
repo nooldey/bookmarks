@@ -4,7 +4,7 @@
 
 ## Vultr主机优惠
 
-如果不介意，可以点击我的推荐链接： https://www.vultr.com/?ref=7368831 ，注意，先不要注册！
+如果不介意，可以先点击我的[推荐链接](https://www.vultr.com/?ref=7368831)，注意，点击打开后，先不要注册！
 
 然后，从优惠入口：[vultr新用户注册充5美元送28美元](http://zhuweisheng.com.cn/go?id=vultrpromo)进入页面，填写新的邮箱和密码（密码要带大小写字母加数字）
 
@@ -18,21 +18,3 @@
 
 **注意：如果没有看到$25.00这一行，就不要充值**
 
-## 阿里云优惠
-
-[阿里云VPS](http://zhuweisheng.com.cn/go?id=aliyun)
-[领取阿里云优惠券](http://zhuweisheng.com.cn/go?id=aliquan)
-
-## 腾讯云优惠
-
-[腾讯云VPS](http://zhuweisheng.com.cn/go?id=qcloud)
-
-## 搬瓦工优惠
-
-**搬瓦工6折优惠码BWH1ZBPVK**
-
-[搬瓦工](http://zhuweisheng.com.cn/go?id=bwg)
-
-## 免费WindowsVPS
-
-[Apponfly](https://www.apponfly.com/ "免费领取一个月Windows主机")

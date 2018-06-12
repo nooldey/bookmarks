@@ -19,12 +19,12 @@ sidebar: auto
 + [CodeSandbox](https://codesandbox.io/)
 + [StackBlitz](https://stackblitz.com/)
 
-## 构建工具
+## 构建/编译 工具
 
-+ [npm包管理器文档](https://docs.npmjs.com/)
-+ [Yarn包管理器文档（中）](https://yarnpkg.com/zh-Hans/)
-+ [Yarn最新版](https://github.com/yarnpkg/yarn/releases/latest)
-+ [Webpack文档（英）](https://webpack.js.org/guides/)
++ [npm文档](https://docs.npmjs.com/)
++ [Yarn文档（中）](https://yarnpkg.com/zh-Hans/)
++ [Webpack文档（中）](https://webpack.docschina.org/concepts/)
++ [Webpack文档（英）](https://webpack.js.org/)
 
 ## Vue.js开发
 
@@ -36,6 +36,10 @@ sidebar: auto
 + [VuePress文档(中)](https://vuepress.vuejs.org/zh/guide/)
 + [Nuxt(中)](https://zh.nuxtjs.org/)
 
+### 组件
+
++ [Picker筛选器·移动端](http://ustbhuangyi.github.io/picker/)
+
 ## React.js开发
 
 + [React官网（英）](https://facebook.github.io/react/)
@@ -43,6 +47,10 @@ sidebar: auto
 + [React入门（黄腾飞）](http://huangtengfei.com/2016/05/learn-react/)
 + [Redux中文文档](http://cn.redux.js.org/)
 + [React-create-app](https://github.com/facebookincubator/create-react-app "一键搭建ReactApp")
+
+## Angular.js开发
+
++ [Angular文档（中）](https://angular.cn/guide/quickstart)
 
 ## Preact.js开发
 
@@ -56,33 +64,68 @@ sidebar: auto
 
 ## 小程序开发
 
-+ [Mpvue框架](http://mpvue.com/ "美团出品 基于Vuejs的小程序框架")
-+ [Wepy框架](https://tencent.github.io/wepy/ "腾讯官方小程序框架")
+### 框架
+
++ [Mpvue框架 | 美团出品 基于Vuejs的小程序框架](http://mpvue.com/ "美团出品 基于Vuejs的小程序框架")
++ [Wepy框架 | 腾讯官方小程序框架](https://tencent.github.io/wepy/ "腾讯官方小程序框架")
+
+### 官方文档
+
++ [微信公众平台](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
++ [资源中心 - 微信开放平台](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419316505&token=&lang=zh_CN)
++ [网站接入wiki索引 - 腾讯开放平台](http://wiki.open.qq.com/wiki/website/%E7%BD%91%E7%AB%99%E6%8E%A5%E5%85%A5wiki%E7%B4%A2%E5%BC%95)
++ [微信公众平台 开发者社区](https://developers.weixin.qq.com/)
 
 ## UI框架
 
-+ [ElementUI](http://element.eleme.io "饿了么vue前端UI框架")
-+ [iView](https://www.iviewui.com/ "iView组件库")
++ [ElementUI | 饿了么vue前端UI框架](http://element.eleme.io "饿了么vue前端UI框架")
++ [iView | iView组件库](https://www.iviewui.com/ "iView组件库")
++ [AntDesign](http://ant.design/ "蚂蚁金服UI设计")
 + [Vux](https://vux.li/ "基于vue+weui的移动端组件库")
 + [Mint-UI](http://mint-ui.github.io/#!/zh-cn "基于vue+vux移动端组件元素")
 + [Vuetify](https://vuetifyjs.com/ "基于Vue+Material的响应式组件框架")
-+ [AntDesign](http://ant.design/ "蚂蚁金服UI设计")
 + [Material-UI](http://www.material-ui.com/ "Google的react前端UI库")
 + [FrozenUI](http://frozenui.github.io/start.html "Tencent手Q开源前端组件库")
 + [SUI-mobile](http://m.sui.taobao.org/components/ "淘宝UED移动端组件库")
 
 ## 地图开发
 
-+ [百度地图开发者](http://lbsyun.baidu.com/apiconsole/key)
-+ [谷歌地图开发者](https://developers.google.com/maps/)
-+ [谷歌地图开发库](http://googlemaps.github.io/libraries)
-+ [谷歌开发者控制台](https://console.developers.google.com/apis/)
+### 百度地图
+
++ [百度地图 | 开发者](http://lbsyun.baidu.com/apiconsole/key)
++ [百度地图 | 开放平台](http://lbsyun.baidu.com/index.php)
++ [百度地图 | 开发控制台-云检索接口说明](http://developer.baidu.com/map/lbs-geosearch.htm#.search.nearby)
+
+### 高德地图
+
++ [高德地图 | javascript-API](http://lbs.amap.com/api/javascript-api/summary/)
+
+### 谷歌地图
+
++ [谷歌地图 | 开发者](https://developers.google.com/maps/)
++ [谷歌地图 | 控制台](https://console.developers.google.com/apis/)
++ [谷歌地图 | 地图库](http://googlemaps.github.io/libraries)
++ [谷歌地图 | InfoBox](http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/examples/infobox-basic.html)
+
+### 其他
+
++ [在线地图经度纬度查询 — 经纬度查询地名|地名查询经纬度 —GPSspg](http://www.gpsspg.com/maps.htm)
 
 ## 图表开发
 
 + [AntV](https://antv.alipay.com/zh-cn/index.html "蚂蚁金服 数据可视化")
++ [Antv G2 Demos](https://antv.alipay.com/zh-cn/g2/3.x/demo/index.html)
 + [ECharts](http://echarts.baidu.com/ "百度出品·Echarts动态图表")
+
+### 甘特图
+
 + [Frappé Gantt](https://frappe.github.io/gantt/ "最简单易用的JS甘特图插件")
++ [jQuery.Gantt](http://taitems.github.io/jQuery.Gantt/)
++ [Open Source Javascript Gantt - Frappe Gantt](https://frappe.github.io/gantt/)
++ [Tom's Planner (new document)](https://www.tomsplanner.com/?template=example)
++ [GitHub - hustcc/gantt-for-react: Frappe Gantt components for React wrapper. 一个简单的甘特图 React 组件封装。](https://github.com/hustcc/gantt-for-react)
++ [Snap.svg API Reference](http://snapsvg.io/docs/)
++ [Setting up the Scale Gantt Docs](https://docs.dhtmlx.com/gantt/desktop__configuring_time_scale.html)
 
 ## 3D开发
 
