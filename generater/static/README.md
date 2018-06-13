@@ -2,7 +2,7 @@
 home: true
 heroImage: /avatar.png
 actionText: 开始
-actionLink: /friends/
+actionLink: /all/
 features:
 - title: 极简操作
   details: 你需要做的，只有一步，导出你的谷歌书签！
@@ -10,7 +10,7 @@ features:
   details: 运行脚本，自动分析谷歌书签导出的HTML文件，并生成Markdown文件。
 - title: 随时访问
   details: 借助Vuepress，生成可随时在线访问文档，再也不怕谷歌账户登录失败！
-footer: MIT Licensed | Copyright © 2018 Nooldey
+footer: Copyright © 2018 Nooldey
 ---
 
 ### Easy Steps

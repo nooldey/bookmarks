@@ -28,6 +28,10 @@ sidebar: auto
 + [道义的笔记本](https://luodaoyi.com/)
 + [不死鸟](https://lai.yuweining.cn/)
 
+## 大厂
+
++ [腾讯前端团队·IMWEB](http://imweb.io/topic/tab/all)
+
 ## WordPress
 
 + [WP大学·WP主题](http://www.wpdaxue.com/)

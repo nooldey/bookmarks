@@ -2,7 +2,7 @@
 * @Author: nooldey
 * @Date:   2018-04-25 09:00:42
  * @Last Modified by: nooldey
- * @Last Modified time: 2018-06-07 13:40:05
+ * @Last Modified time: 2018-06-13 17:20:12
 */
 
 const fs      = require('fs')
@@ -97,7 +97,7 @@ const writeFile = (fileName, content, filePath) => {
 	if (!fs.existsSync(path)) {
         fs.mkdirSync(path)
     }
-	fs.writeFile(path + '/README.md', content, function(err) {
+	fs.writeFile(path + '/README.md', '---\nsidebar: auto\n---\n\n' + content, function(err) {
 		if (err) {
 			return console.error(err)
 		}
@@ -217,7 +217,7 @@ const genMarkdown = () => {
         Object.keys(childFileObj).map(function (key) {
             if (key) {
                 let fileName = key + '.md'
-                let fileContent = '---\nsidebar: auto\n---\n\n'
+                let fileContent = ''
                 // 递归循环
                 let count = 1
                 let getSize = function (count) {
@@ -231,12 +231,13 @@ const genMarkdown = () => {
                     // 判断list是否为空
                     if (obj.list && obj.list.length) {
                         for (let [i, item] of obj.list.entries()) {
-                            let createTime = item.create_time ? item.create_time + ' ' : ''
+                            let createTime = item.create_time ? 'CreateOn: ' + item.create_time + '' : '';
+                            let updateTime = item.update_time ? 'UpdateOn: ' + item.update_time + '' : '';
                             // fileContent += createTime + '[' + item.text + '](' + item.href + ')' + '\n\n'
-                            fileContent += '+ ' + '[' + item.text + '](' + item.href + ')' + '\n';
-                            if (i === obj.list.entries.length-1) {
-                                console.log('last-one');
-                                fileContent += '\n\n'
+                            fileContent += '+ ' + '[' + item.text + '](' + item.href + ' \"' + (updateTime || createTime) + '\"' + ')' + '\n';
+                            if (i === obj.list.length - 1) {
+                                // console.log('last-one');
+                                fileContent += '\n'
                             }
                         }
                     }
@@ -270,11 +271,12 @@ const genAllMD = ({ fileObj, fileContentArr = [] }) => {
         fileContentArr.push(fileContent)
     }
     // 生成README.md
-    writeFile('all/README.md', fileContentArr.join(''), config.mdFilePath)
+    writeFile('all', fileContentArr.join(''), config.mdFilePath)
 }
 
 const genNavConfig = () => {
     setTimeout(() => {
+        NavList = NavList.filter(item => item.text != 'all')
         let content = '/* By auto generator */'+ '\n\n const nav = ' + JSON.stringify(NavList).replace(/\"(text|link)\"/g, '$1') + '\n\n' + 'module.exports = nav';
         fs.writeFile(PATH.join(__dirname, config.mdFilePath) + '.vuepress/nav.js', content, function(err) {
             if (err) {
