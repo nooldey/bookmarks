@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "77e9fc55a7ceb562c22ed6761d5c6a6d"
+    "revision": "9b6a7d33c5c2be0b9832bc23681a302d"
   },
   {
     "url": "assets/css/10.styles.60bbff25.css",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "revision": "52d9ce93832fd570c940667a20858887"
   },
   {
-    "url": "assets/js/3.833c5c9f.js",
-    "revision": "4c0da35618cfb97695a06b2dc9bcf25c"
+    "url": "assets/js/3.bb73b757.js",
+    "revision": "220acd87216dacbb97c09c4a3f4cef16"
   },
   {
     "url": "assets/js/4.8971b08a.js",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "revision": "a6ee0e56e05c366f8582d23bbbebd446"
   },
   {
-    "url": "assets/js/app.04df14b9.js",
-    "revision": "dce6a8f389b03597e575c4cef1268165"
+    "url": "assets/js/app.4496553d.js",
+    "revision": "d1a0571102b27889b01a59ed2c66cc11"
   },
   {
     "url": "avatar.png",
@@ -81,43 +81,43 @@ self.__precacheManifest = [
   },
   {
     "url": "chengxukaifaCoder/index.html",
-    "revision": "02878581703b70033244eb7ad8d228ae"
+    "revision": "4b2ca85f4e4aa1a9f31150fd3f700e14"
   },
   {
     "url": "developer/index.html",
-    "revision": "32b5f617ebd52d2981ab0d4c35992f38"
+    "revision": "bb4df7f9c57daff94a0491bb083429ec"
   },
   {
     "url": "developer/vps.html",
-    "revision": "3afe4d5f9369332023e17c58a5c178d1"
+    "revision": "c05a54d4341abfc70a62cdaa5f474d1a"
   },
   {
     "url": "dianshangyunying/index.html",
-    "revision": "33be0b01e39622786727032f2fdf8821"
+    "revision": "6b20ed16a20db951080391518996db73"
   },
   {
     "url": "dianzishu/index.html",
-    "revision": "ff360d02fd70edd001660b96ed9d328b"
+    "revision": "c36b417257eca323ab34d4cdd686332b"
   },
   {
     "url": "friends/index.html",
-    "revision": "9fb5a272ba52cfe2691ae345c70c3663"
+    "revision": "daa40e869604b815fc6bd8b2bb48a998"
   },
   {
     "url": "index.html",
-    "revision": "a7dbec15cb4070470d4298824924cc43"
+    "revision": "ea75b6611fbf2246753efabd943e66ae"
   },
   {
     "url": "qianduanzaixiangongju/index.html",
-    "revision": "170dcd483a3e72349b25040fcec482ee"
+    "revision": "7fcacc860c1481fd5c1c4f850e94e585"
   },
   {
     "url": "shoucangdewenzhang/index.html",
-    "revision": "af31fffb0dbb497bb407e35fd851aa19"
+    "revision": "5c5a1e91e1ab67268fb49c5d35a2d7c2"
   },
   {
     "url": "sousuoyinqing/index.html",
-    "revision": "71b35bd9fc6f368eb636a38a159ed5aa"
+    "revision": "d810d418c688e31a9d89561374f276a9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
