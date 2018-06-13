@@ -134,7 +134,7 @@ sidebar: auto
 ## 代码托管
 
 + [GitHub](https://github.com/)
-+ [Coding | 填写邀请码3C0DI2免费领取黄金会员](https://coding.net/r/3C0DI2)
++ [Coding | 填写邀请码【3C0DI2】免费领取黄金会员](https://coding.net/r/3C0DI2)
 + [bitbucket](https://bitbucket.org)
 + [码云](https://gitee.com)
 

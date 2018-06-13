@@ -73,8 +73,6 @@ sidebar: auto
 + [宝塔linux管理助手详细安装流程](http://www.bt.cn/Help/Find?id=89)
 + [宝塔面板命令大全](http://www.bt.cn/btcode.html)
 
-<!-- Login: noo@pokemail.net Password: "software146" -->
-
 ## 笔记/效率
 
 + [腾讯文档](https://docs.qq.com/desktop/ "在线协作编辑，轻便快速")
