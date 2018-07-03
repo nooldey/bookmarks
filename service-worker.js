@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "22069b31dfa739ad4c6b3f4c78494f3a"
+    "revision": "458e2c35fcdf46738d6988b93799ae64"
   },
   {
     "url": "assets/css/11.styles.e6c6433b.css",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "revision": "d548cdcf284b0ac32087dbc4860e1dc7"
   },
   {
-    "url": "assets/js/1.443a1213.js",
-    "revision": "c3f1b0d9c9ea2f27ea98dacb57bca11e"
+    "url": "assets/js/1.b0e6a26b.js",
+    "revision": "59fa077f8284f47ed33b030822379e37"
   },
   {
     "url": "assets/js/10.11f76bff.js",
@@ -68,16 +68,16 @@ self.__precacheManifest = [
     "revision": "d166dcec59d6b1e1e4e6adc2ddc6dd57"
   },
   {
-    "url": "assets/js/8.b0bd694f.js",
-    "revision": "28c174de5475c5ac447c64b5cf676aff"
+    "url": "assets/js/8.506e4caf.js",
+    "revision": "2f340e18de7a5cebd455df3ce1995f9a"
   },
   {
     "url": "assets/js/9.cc6e8d8c.js",
     "revision": "822e4c227d730e15620c51ed4874247e"
   },
   {
-    "url": "assets/js/app.01805ef1.js",
-    "revision": "48cb1a2cc4b255030c472eb011d25a01"
+    "url": "assets/js/app.615e4376.js",
+    "revision": "1baced30c594a8c7d2c5877d8673461c"
   },
   {
     "url": "avatar.png",
@@ -85,47 +85,47 @@ self.__precacheManifest = [
   },
   {
     "url": "chengxukaifaCoder/index.html",
-    "revision": "a787fcedee6f27505bac6c3601f40f4e"
+    "revision": "240c55f9e3d1deb059e579eeee36de79"
   },
   {
     "url": "developer/index.html",
-    "revision": "aa2abfdb8a03e8c177f271791378b5c5"
+    "revision": "ec042501156789c8dd04ec985b64506c"
   },
   {
     "url": "developer/vps.html",
-    "revision": "e953995d4ee0f1d1ca0e0293d738b79f"
+    "revision": "a05a39c99c94f445e5836fe5b9c4c9f8"
   },
   {
     "url": "dianshangyunying/index.html",
-    "revision": "4784945a7da02a002455eb1d03169869"
+    "revision": "936ecc7e1cd6442f80d94a92cdeea554"
   },
   {
     "url": "dianzishu/index.html",
-    "revision": "8adc20f0e2173a7aeafd6d618a6f5152"
+    "revision": "d5815e9c8e8da8e7238a0f70aba7dd26"
   },
   {
     "url": "friends/accounts.html",
-    "revision": "5191e9ec7e3e85d1fa832148369da0c2"
+    "revision": "32933163a3c1b05a9d8ed07c26a0aa76"
   },
   {
     "url": "friends/index.html",
-    "revision": "8d0cfc54bed720a8f607cc5f45e19765"
+    "revision": "d58534ad6465c48acdb2044fe738f21d"
   },
   {
     "url": "index.html",
-    "revision": "488ea5b993cbf3356f4a92251391a1dd"
+    "revision": "c36924e8b40b369bd733c6872ef5514a"
   },
   {
     "url": "qianduanzaixiangongju/index.html",
-    "revision": "b5611305c8027ec8ef03d51a1f517590"
+    "revision": "6c902e69f6d10488c0475b1bc844f5d8"
   },
   {
     "url": "shoucangdewenzhang/index.html",
-    "revision": "0693e9b01571f8ced032d7d72baa5227"
+    "revision": "768e48cb05baf846931afded2c507831"
   },
   {
     "url": "sousuoyinqing/index.html",
-    "revision": "75a5cb308b836f415b35d861cef6780b"
+    "revision": "2ee2c253f4f0ed6e2ebd0c9620bbfba9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
