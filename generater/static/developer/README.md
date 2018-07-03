@@ -31,10 +31,11 @@ sidebar: auto
 + [VUE文档（中）](http://cn.vuejs.org/)
 + [Vue-Router文档（中）](https://router.vuejs.org/zh-cn/)
 + [Vuex文档（中）](https://vuex.vuejs.org/zh-cn/)
++ [Vue-Cli文档](https://cli.vuejs.org/)
 + [Vue-SSR文档（中）](https://ssr.vuejs.org/zh/)
 + [Vue-Loader文档（中）](https://vue-loader.vuejs.org/zh-cn/)
 + [VuePress文档(中)](https://vuepress.vuejs.org/zh/guide/)
-+ [Nuxt(中)](https://zh.nuxtjs.org/)
++ [Nuxt.js(中)](https://zh.nuxtjs.org/)
 
 ### 组件
 
@@ -154,6 +155,10 @@ sidebar: auto
 + [HEXO](https://hexo.io/ "静态博客生成器")
 + [docsify](https://docsify.js.org/#/zh-cn/ "文档网站生成")
 + [Restify](http://restify.com/docs/home/ "基于NodeJs的REST接口API实现模块")
+
+### 文档搜索
+
++ [Algolia | 免费的文档云搜索](https://www.algolia.com)
 
 ## 模板语言
 

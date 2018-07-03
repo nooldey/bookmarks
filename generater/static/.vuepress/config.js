@@ -2,7 +2,7 @@
  * @Author: nooldey
  * @Date:   2018-04-18 10:56:39
  * @Last Modified by: nooldey
- * @Last Modified time: 2018-06-13 17:09:57
+ * @Last Modified time: 2018-06-14 10:46:28
  */
 
 const Nav = require('./nav')
@@ -31,8 +31,12 @@ module.exports = {
 	serviceWorker: true,
 	/* Nav */
 	themeConfig: {
+		nav: Nav,
 		repo: 'nooldey/bookmarks',
 		editLinks: false,
-		nav: Nav,
+		// algolia: {
+		// 	apiKey: '',
+		// 	indexName: ''
+		// }
 	}
 }
