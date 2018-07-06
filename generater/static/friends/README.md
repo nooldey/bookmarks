@@ -79,6 +79,7 @@ sidebar: auto
 
 ## 笔记/效率
 
++ [番茄土豆·高效工作](https://pomotodo.com/r/K4KUPTET)
 + [腾讯文档](https://docs.qq.com/desktop/ "在线协作编辑，轻便快速")
 + [有道云笔记](http://note.youdao.com/)
 + [百度脑图](http://naotu.baidu.com/)
