@@ -34,9 +34,9 @@ module.exports = {
 		nav: Nav,
 		repo: 'nooldey/bookmarks',
 		editLinks: false,
-		// algolia: {
-		// 	apiKey: '',
-		// 	indexName: ''
-		// }
+		algolia: {
+		 	apiKey: '8919aba802f9a7bb74dba81d66315123',
+		 	indexName: 'chrome_bookmarks'
+		 }
 	}
 }
