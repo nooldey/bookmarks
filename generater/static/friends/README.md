@@ -103,8 +103,9 @@ sidebar: auto
 + [陆金所](http://t.lu.com/r/ibYR=J)
 + [GoogleAdSense](https://www.google.com/adsense/)
 + [阿里妈妈](http://www.alimama.com/)
-+ [namaho](http://namaho.org)
 + [Google Analytics](https://analytics.google.com)
++ namaho-org
++ ssru-xyz
 
 ## 临时邮箱
 
