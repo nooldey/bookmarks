@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "73fe05960a8307b7ff1b0d48bddf2756"
+    "revision": "943ceb6897a543dc688b3eba65beb6b4"
   },
   {
     "url": "assets/css/11.styles.e6c6433b.css",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "revision": "822e4c227d730e15620c51ed4874247e"
   },
   {
-    "url": "assets/js/app.66344420.js",
-    "revision": "2490fd8370a3473d400962ef6b11feee"
+    "url": "assets/js/app.7b4d4934.js",
+    "revision": "f396c7424fe569e1fcea9c4557b1b9c1"
   },
   {
     "url": "avatar.png",
@@ -85,47 +85,47 @@ self.__precacheManifest = [
   },
   {
     "url": "chengxukaifaCoder/index.html",
-    "revision": "eddf73c74e933a981fc20bc5cf5f4869"
+    "revision": "86ba70cf17bdd5a37f7b06a002fea5ef"
   },
   {
     "url": "developer/index.html",
-    "revision": "3145da612c8f3cba7b041482ea882c5c"
+    "revision": "c6b692043b18bae473ad318f4dbaee2f"
   },
   {
     "url": "developer/vps.html",
-    "revision": "1fe62fea6cf792691111617b25bb1683"
+    "revision": "4ed054cbc4cbcf02027d05ebc67a39c6"
   },
   {
     "url": "dianshangyunying/index.html",
-    "revision": "9a47cf1ead091204ff3ce7fb6dbe0a18"
+    "revision": "5b6c74a5032ed4444b176ad06a8bc9f0"
   },
   {
     "url": "dianzishu/index.html",
-    "revision": "211edb692bf69346e9ad2eb5b0763a12"
+    "revision": "d9b30306cccdab304000b9487943a763"
   },
   {
     "url": "friends/accounts.html",
-    "revision": "a415a084aaa02999f0a1ca8d8c646890"
+    "revision": "2dfc287cfb9b305df5e01ac085c04ba3"
   },
   {
     "url": "friends/index.html",
-    "revision": "9667c6824dcd500d2e733fd74d092483"
+    "revision": "4c3a3a4beca319cf07c72d23d56ec2f4"
   },
   {
     "url": "index.html",
-    "revision": "16132e6dcaa35896a89de9d3bd93cb37"
+    "revision": "aeb4dc8fa0c6428b8de0920285019c9a"
   },
   {
     "url": "qianduanzaixiangongju/index.html",
-    "revision": "bb0f89ea01ca75dad1577dd8f64ae527"
+    "revision": "5a0f2ceca55410d59cee9612312fe68c"
   },
   {
     "url": "shoucangdewenzhang/index.html",
-    "revision": "26d62ec8909394ea77d2ce2a69a7054d"
+    "revision": "fda83a63b19b1f5c78c2e308a9884e4a"
   },
   {
     "url": "sousuoyinqing/index.html",
-    "revision": "501735e2c5558b660cda719ec5cc553d"
+    "revision": "870846c031b256652dc969917395e07f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
