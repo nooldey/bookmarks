@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "e59f963fcb9cc768895a4930d76df7cd"
+    "revision": "2e22bbc236686a6a0383702b23d1e361"
   },
   {
     "url": "assets/css/11.styles.e6c6433b.css",
@@ -48,12 +48,12 @@ self.__precacheManifest = [
     "revision": "9df5753bbd25bf04f1a0cf47e4e09e83"
   },
   {
-    "url": "assets/js/3.bfc8c3ca.js",
-    "revision": "65e8b88adef54199cc44389fd52c4552"
+    "url": "assets/js/3.d19d9557.js",
+    "revision": "892c9a2926f4eb3520f0ed616a2e4d92"
   },
   {
-    "url": "assets/js/4.09614c5e.js",
-    "revision": "a88b44ad68c7a595641578e663818660"
+    "url": "assets/js/4.761c89d9.js",
+    "revision": "0558eeed35573d05bc0714b6dfa5bee8"
   },
   {
     "url": "assets/js/5.e7f4082b.js",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "revision": "822e4c227d730e15620c51ed4874247e"
   },
   {
-    "url": "assets/js/app.ddb30daf.js",
-    "revision": "3e82a2e39693a8c7708f7e58aa7e81d5"
+    "url": "assets/js/app.115b1cf4.js",
+    "revision": "746e396f934dea453795a00a454b8357"
   },
   {
     "url": "avatar.png",
@@ -85,47 +85,47 @@ self.__precacheManifest = [
   },
   {
     "url": "chengxukaifaCoder/index.html",
-    "revision": "603cda53f59776fd75d0a945c3c6fca1"
+    "revision": "9f6fd9d8da6d07c7084413600fb2683a"
   },
   {
     "url": "developer/index.html",
-    "revision": "70bfc055c277e32a521790fa6b518b82"
+    "revision": "0badaa4a3799e2f937d66e91e83fdbe5"
   },
   {
     "url": "developer/vps.html",
-    "revision": "b9abf8dcef033b24c455ba07396c18d9"
+    "revision": "562c556c957296f4128609608a953a86"
   },
   {
     "url": "dianshangyunying/index.html",
-    "revision": "b202d6c03538296cc3003b7af078f482"
+    "revision": "ae87e18e02c95b2664c0e4e711b4e021"
   },
   {
     "url": "dianzishu/index.html",
-    "revision": "44733c560c11d52584319d2a071779f3"
+    "revision": "e8d46f42627e5339a157b128d825b646"
   },
   {
     "url": "friends/accounts.html",
-    "revision": "d2fe7d2bb60e75c410e5649fd15911eb"
+    "revision": "bb720db9658ea833416a3e7b80e45c86"
   },
   {
     "url": "friends/index.html",
-    "revision": "3bebee2f899868a8815d5b22a60d6519"
+    "revision": "1e402c9e1ed2468a7ac067536b03eafe"
   },
   {
     "url": "index.html",
-    "revision": "329ae772365d566f87f9c65ecb0f215a"
+    "revision": "83bd29273408d21a197cb72b0a215d87"
   },
   {
     "url": "qianduanzaixiangongju/index.html",
-    "revision": "ae7c00c43a4403f77c90d9ad77d5d429"
+    "revision": "dabaa154f13243dc01ce7276e688f8e3"
   },
   {
     "url": "shoucangdewenzhang/index.html",
-    "revision": "3709fcc839a75e70ed9484d83be20cee"
+    "revision": "a142fffc60adcbf49fa809728be09056"
   },
   {
     "url": "sousuoyinqing/index.html",
-    "revision": "6943dfd70a3bed2822248153a0af09bb"
+    "revision": "2ec692db9a59e31ccaae990a2060a2c0"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
