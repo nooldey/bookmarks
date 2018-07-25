@@ -104,8 +104,6 @@ sidebar: auto
 + [GoogleAdSense](https://www.google.com/adsense/)
 + [阿里妈妈](http://www.alimama.com/)
 + [Google Analytics](https://analytics.google.com)
-+ namaho-org
-+ ssru-xyz
 
 ## 临时邮箱
 
