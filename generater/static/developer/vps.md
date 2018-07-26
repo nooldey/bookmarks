@@ -6,7 +6,7 @@
 
 如果不介意，可以先点击我的[推荐链接](https://www.vultr.com/?ref=7368831)，注意，点击打开后，先不要注册！
 
-然后，从优惠入口：[vultr新用户注册充5美元送28美元](http://zhuweisheng.com.cn/go?id=vultrpromo)进入页面，填写新的邮箱和密码（密码要带大小写字母加数字）
+然后，从优惠入口：[vultr新用户注册充5美元送28美元](https://www.vultr.com/promo25b?service=promo25b&ref=7368831)进入页面，填写新的邮箱和密码（密码要带大小写字母加数字）
 
 ![vultr.png](https://i.loli.net/2018/04/02/5ac1be4b9be88.png)
 

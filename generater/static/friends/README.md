@@ -111,3 +111,7 @@ sidebar: auto
 + [1小时·GuerrillaMail](https://www.guerrillamail.com/zh/)
 + [1小时·Moakt](https://www.moakt.com/zh)
 + [24小时·24mail](http://24mail.chacuo.net/)
+
+## 网络测速
+
++ [Fast.com](https://fast.com/)
