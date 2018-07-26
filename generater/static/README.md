@@ -2,7 +2,7 @@
 home: true
 heroImage: /avatar.png
 actionText: 开始
-actionLink: /all/
+actionLink: /developer/
 features:
 - title: 极简操作
   details: 你需要做的，只有一步，导出你的谷歌书签！
