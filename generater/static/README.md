@@ -13,6 +13,8 @@ features:
 footer: Copyright © 2018 Nooldey
 ---
 
+[![Build Status](https://travis-ci.org/nooldey/bookmarks.svg?branch=master)](https://travis-ci.org/nooldey/bookmarks)
+
 ### Easy Steps
 
 1. 克隆本项目到本地： `git clone https://github.com/nooldey/bookmarks.git`.
