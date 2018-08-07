@@ -15,6 +15,8 @@ sidebar: auto
 
 ## 在线编程
 
++ [JSFiddle](https://jsfiddle.net/)
++ [RunJS·开源中国出品](https://runjs.cn/code)
 + [CodePen](https://codepen.io)
 + [CodeSandbox](https://codesandbox.io/)
 + [StackBlitz](https://stackblitz.com/)
@@ -67,8 +69,9 @@ sidebar: auto
 
 ### 框架
 
-+ [Mpvue框架 | 美团出品 基于Vuejs的小程序框架](http://mpvue.com/ "美团出品 基于Vuejs的小程序框架")
 + [Wepy框架 | 腾讯官方小程序框架](https://tencent.github.io/wepy/ "腾讯官方小程序框架")
++ [Mpvue框架 | 美团出品 基于Vuejs的小程序/HTML5多端框架](http://mpvue.com/ "美团出品 基于Vuejs的小程序框架")
++ [Taro框架 | 京东凹凸实验室出品 类ReactJs的小程序/HTML5多端框架](https://taro.aotu.io/)
 
 ### 官方文档
 
@@ -135,9 +138,9 @@ sidebar: auto
 ## 代码托管
 
 + [GitHub](https://github.com/)
-+ [Coding | 填写邀请码【3C0DI2】免费领取黄金会员](https://coding.net/r/3C0DI2)
 + [bitbucket](https://bitbucket.org)
 + [码云](https://gitee.com)
++ [Coding](https://coding.net/r/3C0DI2 "填写邀请码【3C0DI2】免费领取黄金会员")
 
 ## 持续集成
 
