@@ -86,6 +86,7 @@ sidebar: auto
 
 ## 网盘/同步盘
 
++ [临时分享·FirefoxSend](https://send.firefox.com)
 + [同步盘·Dropbox](https://db.tt/c4wmojuTBA)
 + [同步盘·微力同步](http://verysync.com/)
 + [自建·NextCloud](https://nextcloud.com/)
