@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "39694a77f930956134daf430b2af98ca"
+    "revision": "56ba46fc077387f6a8f3d174c4f433fb"
   },
   {
     "url": "assets/css/13.styles.ed3a3cd0.css",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "revision": "620d40a4d0ca89e71ebd74b4c1c0eabb"
   },
   {
-    "url": "assets/js/5.764d2fa5.js",
-    "revision": "f35b147e26446e86abaa7dc313c96a80"
+    "url": "assets/js/5.55060cd6.js",
+    "revision": "b53a83f774c63acfbe9418e6b7019677"
   },
   {
     "url": "assets/js/6.36713af4.js",
@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "revision": "aab715eb214e6da8a57b3703775060ea"
   },
   {
-    "url": "assets/js/app.0760ce9a.js",
-    "revision": "2d48186cfb1ce919e170cda6f009a936"
+    "url": "assets/js/app.55b0480c.js",
+    "revision": "b57fb9b264337a4ad4deb9bfbf4ca556"
   },
   {
     "url": "Authine/index.html",
-    "revision": "e60a26bcb42cd3b89ac68cc7f87ebb01"
+    "revision": "45dd2c8f7fb592de0ad128aca95173c3"
   },
   {
     "url": "avatar.png",
@@ -97,51 +97,51 @@ self.__precacheManifest = [
   },
   {
     "url": "chengxukaifaCoder/index.html",
-    "revision": "35e5db92b16149a94d85ad865b8aecc5"
+    "revision": "04ee47530cbabfae913d8b8c2d12ba1d"
   },
   {
     "url": "developer/index.html",
-    "revision": "04b05146fa90bdfa6e00a8e5638d99ed"
+    "revision": "fb1504455b0535aa587f7767c77a3198"
   },
   {
     "url": "developer/vps.html",
-    "revision": "d61e139cf6ca9d82aa70e229f4d3dcb0"
+    "revision": "6c3d82b1f946e311e3d78de51532a466"
   },
   {
     "url": "dianshangyunying/index.html",
-    "revision": "42480406d4cbdea2c1930f24d767d0be"
+    "revision": "8e8e425fcbf049729964a5011b9f86db"
   },
   {
     "url": "dingding/index.html",
-    "revision": "6618c2d8e9761cbb31a789d4efa04c1e"
+    "revision": "041ba2aa9090b9b640ee4b4fb284fbdf"
   },
   {
     "url": "friends/index.html",
-    "revision": "98e0dc6364fbf01012cba096a8fb7070"
+    "revision": "f6e2fa606b79f9e1daab5c5d81140cb5"
   },
   {
     "url": "index.html",
-    "revision": "9662237c0e62606a64d951321b51ac81"
+    "revision": "571641cc1a79202feb1cdf4b7f9bebb2"
   },
   {
     "url": "qianduanzaixiangongju/index.html",
-    "revision": "d552026b3a533d2e3073666dc16c33d9"
+    "revision": "6014624b781494fa449aa71b42a7944a"
   },
   {
     "url": "shiyonggongju/index.html",
-    "revision": "dca23f3ec72d278271370fd83b318270"
+    "revision": "297d3035e975a856bdc447c231c1cc26"
   },
   {
     "url": "shoucangdewenzhang/index.html",
-    "revision": "a0dbb069991791f9e489e3df1c84d7f8"
+    "revision": "b128e482ec3c00a0b516c972094fdadd"
   },
   {
     "url": "sousuoyinqing/index.html",
-    "revision": "99b6a55a2fdbd96cac95b1ab3c789cda"
+    "revision": "b5456857fc8cffb004127389493dc6fa"
   },
   {
     "url": "xiangmu/index.html",
-    "revision": "7406db28294bc930c1a63f27a228a679"
+    "revision": "844cdf6de2761910979328ac6239a20c"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
