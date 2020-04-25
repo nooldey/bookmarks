@@ -92,7 +92,8 @@ sidebar: auto
 + [自建·NextCloud](https://nextcloud.com/)
 + [115网盘](http://115.com/)
 + [百度网盘](http://yun.baidu.com)
-+ [LoadBt·免费离线下载](https://www.loadbt.com/c/484627428)
++ [LoadBt·免费2G离线下载](https://www.loadbt.com/c/484627428)
++ [OffCloud: 免费10G离线下载](https://offcloud.com/?=eab57614)
 
 ## Linus系统下载
 
