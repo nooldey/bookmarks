@@ -10,7 +10,8 @@
     "dev": "vuepress dev source",
     "theme": "vuepress eject source",
     "build": "yarn chrome && vuepress build source",
-    "chrome": "rimraf source && node ./generater/main"
+    "chrome": "rimraf source && node ./generater/main",
+    "deploy": "yarn chrome && yarn build"
   },
   "devDependencies": {
     "vuepress": "^0.5.1"
