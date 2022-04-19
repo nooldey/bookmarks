@@ -118,3 +118,15 @@ sidebar: auto
 ## 网络测速
 
 + [Fast.com](https://fast.com/)
+
+## Mac 必备软件
+
++ [MacZip](https://ezip.awehunt.com/)
++ [LemonCleaner]()
++ [iShot]()
++ [Motrix]()
++ [iStats Menus]()
++ [iTerm 2]()
++ [超级右键]()
++ [switchHosts]()
++ [Visual Studio Code]()
