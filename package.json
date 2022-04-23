@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vuepress dev source",
     "theme": "vuepress eject source",
-    "build": "yarn chrome && vuepress build source",
+    "build": "vuepress build source",
     "chrome": "rimraf source && node ./generater/main",
     "deploy": "yarn chrome && yarn build"
   },
