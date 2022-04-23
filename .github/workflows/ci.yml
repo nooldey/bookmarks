@@ -19,7 +19,7 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4.2.3
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        token: ${{ secrets.ACCESS_TOKEN }}
+#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#         token: ${{ secrets.ACCESS_TOKEN }}
         branch: gh-pages
         folder: public
