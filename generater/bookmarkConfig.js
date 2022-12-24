@@ -6,10 +6,7 @@ const config = {
     // 排除路径
     unlessPath: ['public'],
     // 除生成书签的页面外的其他页面，插入到vuepress的导航栏配置中，
-    customNavs: [{
-            text: '网络邻居',
-            link: '/friends/'
-        },
+    customNavs: [
         {
             text: '开发导航',
             link: '/developer/'
